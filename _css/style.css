@@ -1,0 +1,152 @@
+.mostrador{
+    text-align:center;
+    color: yellow;
+    font-size: 2.5em;
+}
+.espaco{
+    height: 85px;
+    width: 80px;
+    text-align: center;
+    float: left;
+    border: solid 1px yellow;
+    
+}
+.tabuleiro{
+    width: 290px;
+    height: 550px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+body{
+    background: black;
+   
+}
+.tecnologias{
+    text-align: center;
+    display: block;
+    height: 120px;
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: -180px;
+   
+}
+.tecnologias #html{
+    color: blue; 
+ 
+    padding: 12px;
+    
+    font-size: 3em;
+    text-align: center;
+    
+}
+.tecnologias #css{
+    color: blueviolet;
+   
+    font-size: 3em;
+    text-align: center;
+}
+.tecnologias #script{
+    color: yellow;
+    font-size: 3em;
+    text-align: center;
+    
+}
+@media screen and (min-width:700px){
+    .tecnologias{
+        text-align: center;
+        height: 350px;
+        width: 30%;
+        margin-right: 90px;
+        background-color: red;
+        margin-top: -500px;
+    }
+    .tecnologias #html{
+        color: blue; 
+        text-align: center; 
+       
+        font-size: 6em;
+        
+    }
+    .tecnologias #css{
+        color: blueviolet;
+        text-align: center;
+        font-size: 6em;
+        margin-top: -20px;
+        margin-bottom: 220px;
+    }
+    .tecnologias #script{
+        color: yellow;
+        float: left;
+        font-size: 6em;
+        text-align: center;
+        margin-top: -100px;
+    }
+    .tabuleiro{
+        width: 500px;
+        height: 550px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        
+    }
+    .espaco{
+    height: 200px;
+    width: 140px;
+    text-align: center;
+    float: left;
+    border: solid 1px yellow;
+   
+    
+}
+}
+#novo{
+   
+    display: block;
+    margin-top: -240px;
+    margin-right: 70px;
+    color: black;
+    background: yellow;
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    height: 60px;
+    font-size: 2em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+@media screen and (max-width:128px){
+    .tecnologias{
+        text-align: center;
+        height: 180px;
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+       
+       
+    }
+    .tecnologias #html{
+        color: blue; 
+        font-size: 2em;
+        text-align: center;
+    }
+    .tecnologias #css{
+        color: blueviolet;
+        font-size: 5em;
+        text-align: center;
+    }
+    .tecnologias #script{
+        color: yellow;
+        font-size: 5em;
+        
+    }
+    #novo{
+        color: black;
+        display: block;
+        margin-top: -512px;
+        margin-right: 70px;
+        margin-right: 70px;
+    }
+    
+}
