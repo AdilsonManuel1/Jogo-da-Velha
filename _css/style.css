@@ -4,11 +4,12 @@
     font-size: 2.5em;
 }
 .espaco{
-    height: 85px;
+    height: 82px;
     width: 80px;
     text-align: center;
     float: left;
     border: solid 1px yellow;
+
     
 }
 .tabuleiro{
@@ -59,7 +60,7 @@ body{
         height: 350px;
         width: 30%;
         margin-right: 90px;
-        background-color: red;
+       
         margin-top: -500px;
     }
     .tecnologias #html{
